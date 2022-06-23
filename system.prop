@@ -4,8 +4,14 @@ vendor.bluetooth.soc=cherokee
 # CNE
 persist.vendor.cne.feature=1
 
-#Dex
+# Dex
 dalvik.vm.dex2oat64.enabled=true
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# Display
+vendor.display.disable_rotator_downscale=1
 
 # Graphics
 persist.sys.sf.native_mode=0
