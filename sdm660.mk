@@ -21,7 +21,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom/display \
     hardware/qcom/media \
-    vendor/qcom/opensource/audio-hal/primary-hal
+    vendor/qcom/opensource/audio-hal/primary-hal \
+    vendor/qcom/opensource/usb/etc
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -248,6 +249,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
+    init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
