@@ -153,9 +153,11 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
-    libtinyxml
-
-PRODUCT_PACKAGES += \
+    libdisplayconfig.vendor \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
+    libqdMetaData.vendor \
+    libtinyxml \
     android.frameworks.displayservice@1.0_32 \
     android.frameworks.displayservice@1.0.vendor \
     android.hardware.graphics.allocator@2.0-impl:64 \
@@ -166,6 +168,8 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.renderscript@1.0-impl \
     android.frameworks.displayservice@1.0 \
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9.vendor \    
     vendor.display.config@2.0 \
     vendor.display.config@2.0_vendor
 
