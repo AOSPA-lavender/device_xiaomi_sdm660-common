@@ -237,6 +237,8 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor \
+    android.hidl.allocator@1.0 \
+    android.hidl.allocator@1.0.vendor \
     vendor.qti.hardware.servicetracker@1.0 \
     vendor.qti.hardware.servicetracker@1.0.vendor
 
