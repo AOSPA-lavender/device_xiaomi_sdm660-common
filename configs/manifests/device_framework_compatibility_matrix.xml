@@ -543,4 +543,50 @@
         <instance>default</instance>
     </interface>
 </hal>
+
+<hal format="hidl" optional="true">
+    <name>vendor.qti.hardware.wifi.wifimyftm</name>
+    <version>1.0</version>
+    <interface>
+        <name>IWifiMyFtm</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.qti.hardware.wifi.wificfr</name>
+    <version>1.0</version>
+    <interface>
+        <name>IWificfr</name>
+        <instance>wificfr</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>1.0-6</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+        </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.vibrator</name>
+    <interface>
+        <name>IVibrator</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
