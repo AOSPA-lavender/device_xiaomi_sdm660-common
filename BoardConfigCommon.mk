@@ -132,7 +132,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/utils/config.fs
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 
 # Power
 TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/configs/power/power-mode.cpp
